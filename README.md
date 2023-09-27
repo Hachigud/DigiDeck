@@ -17,6 +17,6 @@ pero si existen en la api.
 Tambien la api al hacer la consutla por la lista completa de digis esta devuelve de 5 en 5, por ese motivo solo se muestrand e 5 en 5. 
 
 <h1>Demostracion:</h1>
-El video presenta marca de agua dado que es la herramienta que ocupe para comprimirlo dado que git  acepta 10mb como maximo.
+El video presenta marca de agua dado que es la herramienta que ocupe para comprimirlo dado que git  acepta 10mb como maximo. </br>
 https://github.com/Hachigud/DigiDeck/assets/101149365/2d00087a-ed9c-4b3e-a4ff-ba61290eb91c
 
