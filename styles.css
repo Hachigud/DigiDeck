@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F4F4F4;
+}
+
+.digi-card{
+   margin: 0 auto;
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 400px;
+   height: 570px;
+   background-color: white;
+   border-radius: 10px 10px 10px 10px ;
+   box-shadow: -3px 1px 5px 0px rgba(0,0,0,0.75);
+   transition: transform  1s ease 0s;
+}
+
+.digi-card:hover{
+    transform: scale(0.95);
+}
+.card-header{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.imgDigi{
+    height: 260px;
+    width: 100%;
+    display: block;
+    margin: 5px;
+    transition: transform  1s ease 0s;
+}
+
+.imgDigi:hover{
+    transform: scale(1.15);
+}
+
+.card-body{
+    width: 250px;
+    text-align: center;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+
+.digiFields{  
+    height: 35px;
+}
+
+
+
+h5>a{
+    color: black;
+}
+
+.atributos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    
+}
+
+
+.datosDigi{
+    display: flex;
+    align-items: center;  
+}
+
+.contenido{
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.numeroDigi{
+   font-weight: bold;
+   z-index: 99;
+}
+
+.paginator{
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.paginator  a:link{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.actual{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+
+.form-inline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.btn{
+    margin: 20px;
+    width: 160px;
+    
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+}
+
+.detal{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.cuerpoDetalle{
+   
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+.digi-card-none{
+   
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: transform  1s ease 0s; 
+ }
+
+ .dere{
+    align-items: center;
+    height: 100%;
+ }
+
+ .descripcion{
+    width: 100%;
+ }
+
+
+
+ .digi-card-evo{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    min-height: 450px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 3px 1px 5px 0px rgba(0,0,0,0.75);
+    transition: transform  1s ease 0s;
+    height: auto;
+ }
+
+ .datosDigi-evo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .condition{
+    font-weight: bold;
+    z-index: 99;
+    text-align: center;
+    width: 100%;
+    
+ }
+
+ .nobold{
+    font-weight: 150;
+ }
+
+ .skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+ }
+
+ .contenidoDere{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+th td{
+   text-align: center;
+ }
+
+ .detailsDigi{
+    text-align: center;
+ }
+
+.lanzamiento{
+    text-align: center;
+    opacity: .5;
+}
+
+
+h3{
+    text-align: center;
+}
+
+
+
+
+
+
+.carousel-control-prev-icon{
+    align-items: center;
+    background-color: black;
+}
+.carousel-control-next-icon{
+    background-color: black;
+}
+
+.active{
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.carousel{
+    margin: 50px;
+    width: 500px;
+}
+
+.carousel-item{
+    height: 600px;
+}
+.tittle-center{
+  text-align: center;
+}
