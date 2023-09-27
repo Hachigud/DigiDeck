@@ -7,7 +7,7 @@ Usando las siguientes tecnologias:
 - JQuery
 - CSS3
 - Bootstrap5
-- </br>
+</br>
 <h1>Funcionalidad:</h1>
 Lista todos los digis existentes en la api permitiendo buscar por nombre u id y tambien ver el detalle del digimon al clickear su nombre como puede ser su historia, habilidades y linea evolutivo.
 
