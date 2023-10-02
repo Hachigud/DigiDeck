@@ -1,5 +1,5 @@
 # DigiDeck
-Proyecto desarrollado  haciendo uso de la DigiApi (https://github.com/Hachigud/DigiDeck.git) </br>
+Proyecto desarrollado  haciendo uso de la DigiApi (https://digimon-api.com) </br>
 Usando las siguientes tecnologias: 
 
 - HTML5
