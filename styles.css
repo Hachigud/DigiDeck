@@ -104,17 +104,38 @@ h5>a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+   
 }
 
 ul{
     list-style: none;
+    
 }
 
 .paginator  a:link{
     text-decoration: none;
     font-size: 10px;
+    
 }
+.paginator:hover{
+    cursor: pointer;
+}
+.page-item{
+    
+    width: 50px;
+    text-align: center;
+    border-top: 2px groove #9750ff;
+    border-right: 2px groove #9750ff;
+    border-bottom: 2px groove #9750ff;
+    border-left: 2px groove #9750ff;
+}
+
+.page-item:hover{
+    transform: scale(0.95);
+    
+}
+
+
 
 .actual{
     font-weight: bold;
@@ -278,3 +299,5 @@ h3{
 .tittle-center{
   text-align: center;
 }
+
+

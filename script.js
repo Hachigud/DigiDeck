@@ -83,14 +83,16 @@ async function obtenerListaDigis(url) {
 
     let footer = document.querySelector('.footer');
     footer.innerHTML = ` 
+
     <ul class="paginator">
-    <li><a onclick="obtenerListaDigis('${datos.pageable.previousPage}')">&laquo;</a></li>
-    <li><a class="actual" onclick="obtenerListaDigis('${datos.pageable.currentPage}')">${datos.pageable.currentPage + 1}</a></li>
-    <li><a onclick="obtenerListaDigis('https://digimon-api.com/api/v1/digimon?page=${datos.pageable.currentPage + 1}')">${datos.pageable.currentPage + 2}</a></li>
-    <li><a onclick="obtenerListaDigis('https://digimon-api.com/api/v1/digimon?page=${datos.pageable.currentPage + 2}')">${datos.pageable.currentPage + 3}</a></li>
-    <li><a onclick="obtenerListaDigis('https://digimon-api.com/api/v1/digimon?page=${datos.pageable.currentPage + 3}')">${datos.pageable.currentPage + 4}</a></li>
-    <li><a onclick="obtenerListaDigis('https://digimon-api.com/api/v1/digimon?page=${datos.pageable.currentPage + 4}')">${datos.pageable.currentPage + 5}</a></li>
+    <li class="page-item"><a class="page-link" onclick="obtenerListaDigis('${datos.pageable.previousPage}')">&laquo;</a></li>
+    <li class="page-item"><a class="page-link actual" onclick="obtenerListaDigis('${datos.pageable.currentPage}')">${datos.pageable.currentPage + 1}</a></li>
+    <li class="page-item"><a class="page-link" onclick="obtenerListaDigis('https://digimon-api.com/api/v1/digimon?page=${datos.pageable.currentPage + 1}')">${datos.pageable.currentPage + 2}</a></li>
+    <li class="page-item"><a class="page-link" onclick="obtenerListaDigis('https://digimon-api.com/api/v1/digimon?page=${datos.pageable.currentPage + 2}')">${datos.pageable.currentPage + 3}</a></li>
+    <li class="page-item"><a class="page-link" onclick="obtenerListaDigis('https://digimon-api.com/api/v1/digimon?page=${datos.pageable.currentPage + 3}')">${datos.pageable.currentPage + 4}</a></li>
+    <li class="page-item"><a class="page-link" onclick="obtenerListaDigis('https://digimon-api.com/api/v1/digimon?page=${datos.pageable.currentPage + 4}')">${datos.pageable.currentPage + 5}</a></li>
 </ul>
+
     `;
 
 }
